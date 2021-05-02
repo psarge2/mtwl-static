@@ -464,6 +464,7 @@ ul {
   line-height: 1.4;
   color: rgba(0, 0, 0, 0.8);
   background: #5565f9;
+  width: 100%;
 }
 
 .contact__wrapper {
