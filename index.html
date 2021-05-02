@@ -78,6 +78,38 @@
 
 
     </section>
+    <section class="contact contact__wrapper">
+      <div class="contact__copy-container">
+        <h1 class="contact__title">We can't wait to hear from you!</h1>
+        <p class="contact__copy">By sharing our experiences and asking questions we can create discussions to find the
+          answers we need.</p>
+      </div>
+      <form id="survey-form" data-netlify="true">
+        <div class="contact__info">
+          <div class="form-group">
+            <label id="name-label" for="name">Name <input id="name" type="text" name="name" class="form-control"
+                placeholder="Jon Smith" required></label>
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email <input id="email" type="email" name="email" class="form-control"
+                placeholder="name@gmail.com" required></label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <p><label for="more-info">Anything Else You Would Like To Share</label></p>
+          <textarea id="more-info" name="more_info" rows="6" cols="50" class="input-textarea"
+            placeholder="Tell us something good..."></textarea>
+        </div>
+        <div clases="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+
+
+    </section>
   </main>
 
   <script type='text/javascript' charset='utf-8'
