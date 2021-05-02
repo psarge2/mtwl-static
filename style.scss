@@ -273,11 +273,11 @@ ul {
 	margin-top: 50px;
 	padding: 0px;
 	text-align: center;
-	font-family: sans-serif;
 	font-size: 1.5rem;
 	font-weight: 400;
 	line-height: 1.4;
 	color: rgba(0, 0, 0, 0.8);
+	background: $accent;
 }
 .contact__wrapper {
 	display: flex;
@@ -294,7 +294,13 @@ ul {
 	font-size: 2.4rem;
 	font-weight: 700;
 	margin-bottom: 20px;
-	color: $dark-gray;
+	color: #fff;
+}
+
+.contact__copy {
+	margin-bottom: 30px;
+	color: #fff;
+	font-size: 14px;
 }
 
 .contact__copy-container {
@@ -314,7 +320,7 @@ form {
 	//background-color: rgba(0, 0, 0, 0.5);
 	//padding: 50px 60px 50px 30px;
 	color: white;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	text-align: left;
 	border-radius: 15px;
 }
@@ -386,4 +392,16 @@ button {
 	border: 1px solid #ced4da;
 	border-radius: 0.25rem;
 	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (max-width: 768px) {
+	.contact__info {
+		display: flex;
+		flex-direction: column;
+	}
+	.form-group {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0.25rem;
+	}
 }
