@@ -383,6 +383,16 @@ button {
 	border-radius: 10px;
 }
 
+input,
+button,
+select,
+textarea {
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
 .input-textarea {
 	min-height: 120px;
 	width: 100%;
